@@ -6,7 +6,7 @@ const Welcome = () => {
     return (
         <SafeAreaView className='flex-1 bg-white flex-col px-4 gap-8'>
             <View className='w-full h-[550px] flex-row gap-4 py-2'>
-                <View className='w-1/2 h-full'>
+                <View className='w-1/2 h-full'> 
                     <Image className='w-full h-full rounded-full' resizeMode='cover' source={{ uri: "https://img.freepik.com/free-photo/still-life-say-no-fast-fashion_23-2149669576.jpg" }} />
                 </View>
                 <View className='flex-1 h-full flex-col gap-1 items-center'>
