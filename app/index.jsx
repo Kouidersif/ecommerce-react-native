@@ -1,3 +1,5 @@
-import Onboarding from "@/screens/Onboarding";
 
-export default Onboarding;
+import ProfileSetup from "./profile-setup";
+
+
+export default ProfileSetup;
