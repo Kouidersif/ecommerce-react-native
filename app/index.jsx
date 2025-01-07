@@ -1,5 +1,4 @@
 
-import ProfileSetup from "./profile-setup";
+import LocationPermission from "./location-permission";
 
-
-export default ProfileSetup;
+export default LocationPermission;
