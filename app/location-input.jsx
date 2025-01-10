@@ -3,11 +3,15 @@ import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import AntDesign from '@expo/vector-icons/AntDesign';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
+import { router } from 'expo-router';
 const LocationInput = () => {
+    const handleBack = () => {
+        router.back()
+    }
     return (
         <SafeAreaView className='flex-1 bg-white px-4'>
             <View className='flex-row items-center justify-between py-4'>
-                <TouchableOpacity className='border border-gray-300 rounded-full p-2'>
+                <TouchableOpacity onPress={handleBack} className='border border-gray-300 rounded-full p-2'>
                     <AntDesign name="arrowleft" size={24} color="black" />
                 </TouchableOpacity>
                 <Text className='text-2xl font-normal mx-auto'>Enter Your Location</Text>
