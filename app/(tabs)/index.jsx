@@ -40,7 +40,7 @@ const categories = [
 
 const index = () => {
     return (
-        <SafeAreaView className='flex-1 px-4 bg-white'>
+        <SafeAreaView className='flex-1 px-4 bg-white' edges={['right', 'left', 'top']}>
             <ScrollView showsVerticalScrollIndicator={false}>
                 {/* header */}
                 <View className='flex-col gap-2 mb-4'>
